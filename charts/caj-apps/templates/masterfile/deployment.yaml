@@ -4,9 +4,9 @@ metadata:
   name: m-caj-masterfile
   labels:
     app: m-caj-masterfile
-    version: v1
+    version: v2
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       app: m-caj-masterfile
